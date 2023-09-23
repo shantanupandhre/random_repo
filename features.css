@@ -1,0 +1,73 @@
+/* Global styles for responsiveness */
+.outermost-container {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.inner-container {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-size: cover; /* Make the background image cover the container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+/* Styles for different feature sections */
+.healthcare {
+    margin-left: 300px;
+}
+
+.wealthcare {
+    margin-right: 300px;
+}
+
+/* Styles for title */
+.title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #337CCF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Button styles */
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px; /* Set the button size to 80x80 */
+    height: 40px; /* Set the button size to 80x80 */
+    border-radius: 10px; /* Add a border radius of 10px */
+    background-color: #337CCF;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; /* Change the font-family */
+    transition: all 0.3s; /* Add transition for smooth hover effect */
+}
+
+/* Button hover styles */
+button:hover {
+    background-color: white;
+    color: #337CCF;
+    border: 2px solid #337CCF; /* Add a border and change its color on hover */
+}
+
+.feature-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #337CCF;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .inner-container {
+        width: 100%;
+    }
+}
